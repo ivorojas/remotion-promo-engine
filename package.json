@@ -1,0 +1,26 @@
+{
+  "name": "remotion-promo-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent-first Remotion engine for cinematic product promos: motion primitives, synthesized SFX & music, an ElevenLabs voice pipeline with caching, and the method docs your AI coding agent reads to produce the whole video.",
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Demo out/demo.mp4 --codec=h264",
+    "still": "remotion still src/index.ts Demo",
+    "sfx": "node scripts/gen-sfx.mjs",
+    "voice": "node scripts/gen-voice.mjs",
+    "master": "node scripts/master.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.246",
+    "@remotion/google-fonts": "^4.0.246",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.246"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
