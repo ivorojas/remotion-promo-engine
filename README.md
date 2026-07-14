@@ -10,8 +10,29 @@ colors/fonts/assets, writes the scenes, and renders a real MP4 — with
 optional synthesized sound & music, and an optional ElevenLabs voiceover.
 
 Born from building the launch video for a real product ([Umbral](https://umbralcosmos.com)):
-a ~100-second, bilingual, fully voiced product tour — then extracted so any
+a ~95-second, bilingual, fully voiced product tour — then extracted so any
 project can reuse the engine and the method.
+
+## See it in action
+
+The engine's first production output: the launch promo for
+**[Umbral](https://umbralcosmos.com)**, a tarot app. Fully code-authored — real
+card art, a deep ElevenLabs voiceover, synthesized music & SFX, 14 scenes.
+
+<p align="center"><img src="examples/preview-1-hero.gif" width="80%" alt="Umbral promo — hero"></p>
+
+<table>
+<tr>
+<td width="50%"><img src="examples/preview-2-reveal.gif" width="100%" alt="card reveal"></td>
+<td width="50%"><img src="examples/preview-3-spreads.gif" width="100%" alt="spreads"></td>
+</tr>
+<tr>
+<td width="50%"><img src="examples/preview-4-table.gif" width="100%" alt="reader's table with cursor"></td>
+<td width="50%"><img src="examples/preview-5-astrology.gif" width="100%" alt="astrology carousel"></td>
+</tr>
+</table>
+
+▶ **[Watch the full 95s video (with sound)](examples/umbral-tarot-promo-en.mp4)** — plays right in GitHub's file viewer (web-optimized ~8 MB). Want the full-quality master? Grab it from the **[v1.0 release](https://github.com/ivorojas/remotion-promo-engine/releases/tag/v1.0)**.
 
 ## What's inside
 
